@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .carousel{
   width: 100%;
 }
@@ -73,4 +74,32 @@ footer{
 }
 nav{
   background-color: d0f0f8;
+=======
+body{
+    background: rgb(3,4,94);
+    background: linear-gradient(360deg, rgba(3,4,94,1) 0%, rgba(0,119,182,1) 35%, rgba(0,180,216,1) 100%);
+}
+
+iframe{
+    position: relative;
+    margin: -60vh 0vh 0vh -20vh;
+}
+input[type="text"]{
+    border-radius: 6px;
+}
+.sta_consult{
+    position: absolute;
+    width: fit-content;
+    margin:-10vh 0vh 0vh 15vh;
+}
+.sta_info{
+    width:70vh;
+    height: 60vh;
+    margin: 15vh 0vh 0vh 90vh;
+    background-color: hsla(0, 0%, 100%, 0.6);
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+label{
+    color: white;
+>>>>>>> ET
 }
