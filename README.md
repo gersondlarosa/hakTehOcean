@@ -73,16 +73,16 @@ En base al interés que se tiene de preservar los ecosistemas marinos, es posibl
 | Web  |  MySQL | Java/Java Web <br> HTML <br> CSS <br> Bootstrap <br> Docker |
 
 ## Wireframe
-![Wireframe pagina de home](/ImagenesDocumentacion/Home.png)
-![Wireframe pagina home p2](/ImagenesDocumentacion/Home P2.png)
-![Wireframe pagina de mapa](/ImagenesDocumentacion/Map.png)
-![Wireframe pagina de donaciones](/ImagenesDocumentacion/Donate.png)
+![Home](/ImagenesDocumentacion/Home.png)
+![Home p2](/ImagenesDocumentacion/HomeP2.png)
+![Wireframe Mapa](/ImagenesDocumentacion/Map.png)
+![Wireframe Donaciones](/ImagenesDocumentacion/Donate.png)
 
 ## Design
 
-![Home design](/ImagenesDocumentacion/Home_UI.png)
-![Home design p2](/ImagenesDocumentacion/Home2_UI.png)
-![Maps design](/ImagenesDocumentacion/Maps.png)
-![Donation design](/ImagenesDocumentacion/Donation.png)
+![Design Home](/ImagenesDocumentacion/HOMEUI.png)
+![Design Home p2](/ImagenesDocumentacion/HOMEUI2.png)
+![Maps Design](/ImagenesDocumentacion/Maps.png)
+![Donation Design](/ImagenesDocumentacion/Donation.png)
 
 
