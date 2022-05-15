@@ -1,2 +1,2 @@
-# hakTehOcean
-Proyecto de Hakaton 
+# hakTheOcean
+Proyecto de Hackaton 
