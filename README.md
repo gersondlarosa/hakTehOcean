@@ -74,14 +74,14 @@ En base al interés que se tiene de preservar los ecosistemas marinos, es posibl
 
 ## Wireframe
 ![Wireframe pagina de home](/ImagenesDocumentacion/Home.png)
-![Wireframe pagina de home parte 2](/ImagenesDocumentacion/Home P2.png)
+![Wireframe pagina home p2](/ImagenesDocumentacion/Home P2.png)
 ![Wireframe pagina de mapa](/ImagenesDocumentacion/Map.png)
 ![Wireframe pagina de donaciones](/ImagenesDocumentacion/Donate.png)
 
 ## Design
 
 ![Home design](/ImagenesDocumentacion/Home_UI.png)
-![Home design](/ImagenesDocumentacion/Home2_UI.png)
+![Home design p2](/ImagenesDocumentacion/Home2_UI.png)
 ![Maps design](/ImagenesDocumentacion/Maps.png)
 ![Donation design](/ImagenesDocumentacion/Donation.png)
 
