@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+      <link rel="stylesheet" href="./css/style.css">
+    <title>hakTehOcean</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #d0f0f8;">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <a class="navbar-brand" href="#">Hidden brand</a>
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item active">
+                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="map.html">Link</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link disabled" href="#">Disabled</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link disabled" href="donate.html">Donate</a>
+            </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+
+
+
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm">
+            <h2>Donate for the Ocean</h2>
+            <p>
+                <span>
+                    You can make donations to help us protect and conserve marine species. <br>
+                    When you decide to donate, you support these actions:
+                </span>
+            </p>
+            <p>
+                <span>
+                    <ol>
+                        <li>Carry out <b>scientific research in Mexican ecosystems</b> to observe, measure and propose solutions that protect biodiversity.</li>
+                        <li>Denounce the corporations that with their business practices  put the <b>balance of natural areas at risk.</b></li>
+                        <li><b>Train and strengthen volunteer groups throughout the country</b> that carry out talks, conferences, spokespersons and activism <br> to defend the planet.</li>
+                        <li>Demand from governments at all <b>levels measures and legislation that establish natural conservation measures.</b></li>
+                    </ol>
+                </span>
+            </p>
+        </div>
+        <div class="col-sm">
+            <h2>Donor Information</h2>
+            <!--FirstName-->
+                <div class="FirstNameError ErrorMessage">First name is requiered.</div>
+                <Label for="billing_name_first">
+                <span class="Req">*</span>
+                First Name:
+            </Label>
+            <input type="text" name="billing.name.first" class="billing_name_first" aria-required="true" value>
+            <!--LastName-->
+            <div class="LastNameError ErrorMessage">Last name is requiered.</div>
+                <Label for="billing_name_last">
+                <span class="req">*</span>
+                Last Name:
+            </Label>
+            <input type="text" name="billing.name.last" class="billing_name_last" aria-required="true" value>
+            <!--Country-->
+            <div class="CountryError ErrorMessage">Country is requiered.</div>
+            <label for="billing_country" class="billing_country">
+                <span class="req">*</span>
+                Country:
+            </label>
+            <select name="billing.country" id="billing_country" class="billing_country" size="1">
+                <option value="Mexico" selected="true">México</option>
+                <option value="Estados Unidos">Estados Unidos</option>
+                <option value="Canada">Canadá</option>
+            </select>
+
+            <!--State-->
+            <div class="StateError ErrorMessage">State is requiered.</div>
+                <Label for="billing_state" class="billing_city_label">
+                <span class="req">*</span>
+                State:
+            </Label>
+            <input type="text" name="billing.state" class="last" aria-required="true" value>
+
+            <!--Mount-->
+            <div class="AmountError ErrorMessage">Select Amount is requiered</div>
+            <label for="billing_amount" class="billing_amount_label">
+                <span class="req">*</span>
+                Select the amount you want to contribute.
+                <div class="donation_amounts">
+                    <ul class="donate_now">
+                        <li>
+                            <input type="radio" id="amount1" name="amount_1" class="kitoption" data-amount="100" data-kit="amount1" checked="cheked">
+                            <label for="amount1" class="add-radio-color">$100</label>
+                        </li>
+                        <li>
+                            <input type="radio" id="amount2" name="amount_2" class="kitoption" data-amount="250" data-kit="amount2">
+                            <label for="amount2" class="add-radio-color">$250</label>
+                        </li>
+                        <li>
+                            <input type="radio" id="amount3" name="amount_3" class="kitoption" data-amount="500" data-kit="amount3">
+                            <label for="amount3" class="add-radio-color">$500</label>
+                        </li>
+                    </ul>
+                    <div class="other_amount">
+                        <div class="input_field">
+                            <input type="text" id="other_amount" class="validate" placeholder="Other" maxlength="3">
+                        </div>
+                    </div>
+                </div>
+            </label>
+        </div>
+
+    </div>
+</div>
+
+
+
+<footer >
+    <div class="container_footer">
+
+        <div class="box__footer">
+            <h2>Soluciones</h2>
+            <a href="#">App Desarrollo</a>
+            <a href="#">App Desarrollo</a>
+            <a href="#">App Desarrollo</a>
+            <a href="#">App Desarrollo</a>
+        </div>
+        <div class="box__footer">
+            <h2>Compañia</h2>
+            <a href="#">Acerca de</a>
+            <a href="#">Trabajos</a>
+            <a href="#">Procesos</a>
+            <a href="#">Servicios</a>
+        </div>
+
+        <div class="box__footer">
+            <h2>Redes Sociales</h2>
+                <a href="#"> <i class="fab fa-facebook-square"></i> Facebook</a>
+                <a href="#"><i class="fab fa-twitter-square"></i> Twitter</a>
+                <a href="#"><i class="fab fa-linkedin"></i> Linkedin</a>
+                <a href="#"><i class="fab fa-instagram-square"></i> Instagram</a>
+        </div>
+    </div>
+
+<div class="box__copyright">
+    <hr>
+    <p>Todos los derechos reservados © 2022</p>
+    <b>Hak the Ocean</b>
+</div>
+
+</footer>
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="https://kit.fontaweso
+</body>
+</html>
