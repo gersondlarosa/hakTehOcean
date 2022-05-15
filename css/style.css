@@ -9,11 +9,7 @@ footer{
    background-image: url(../img/background-footer.svg);
    background-size: cover;
 
-  /*background-color: #d0f0f8;
-  -webkit-mask-image: url("../img/background-footer.svg");
-  mask-image: url("../img/background-footer.svg");
-  -webkit-mask-size: cover;
-  mask-size: cover;*/
+
 }
 .container_footer{
   display: flex;
