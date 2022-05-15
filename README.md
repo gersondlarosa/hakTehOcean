@@ -31,6 +31,10 @@ En base al interés que se tiene de preservar los ecosistemas marinos, es posibl
   <li>Personas que no cuenten con acceso a internet</li>
 </ul>
 
+## Buyer persona
+
+![Buyer Persona](/ImagenesDocumentacion/BuyerPersona.png)
+
 ## Requerimientos Funcionales
 
 | ID | Requerimiento  | Prioridad  |
@@ -69,4 +73,16 @@ En base al interés que se tiene de preservar los ecosistemas marinos, es posibl
 | Web  |  MySQL | Java/Java Web <br> HTML <br> CSS <br> Bootstrap <br> Docker |
 
 ## Wireframe
+![Wireframe pagina de home](/ImagenesDocumentacion/Home.png)
+![Wireframe pagina de home parte 2](/ImagenesDocumentacion/Home P2.png)
+![Wireframe pagina de mapa](/ImagenesDocumentacion/Map.png)
+![Wireframe pagina de donaciones](/ImagenesDocumentacion/Donate.png)
+
+## Design
+
+![Home design](/ImagenesDocumentacion/Home_UI.png)
+![Home design](/ImagenesDocumentacion/Home2_UI.png)
+![Maps design](/ImagenesDocumentacion/Maps.png)
+![Donation design](/ImagenesDocumentacion/Donation.png)
+
 
